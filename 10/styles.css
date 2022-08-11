@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.menu {
+  background-color: #ffa62b;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.content {
+  background-color: #ede7e3;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .menu {
+    flex-direction: row;
+  }
+}
