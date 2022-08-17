@@ -1,0 +1,64 @@
+@mixin btn-base {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+}
+
+@mixin btn-small {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+$color-main: #0075FF;
+$color-sec: #000;
+
+.btn-main {
+  @include btn-base;
+  background-color: $color-main;
+  color: white;
+  border: none;
+  border: 1px solid $color-main;
+
+  &:hover {
+    background-color: white;
+    color: $color-main;
+  }
+
+  &-s {
+    @extend .btn-main;
+    @include btn-small
+  }
+}
+
+.btn-sec {
+  @include btn-base;
+  color: $color-sec;
+  background-color: transparent;
+  border: none;
+
+  &:hover {
+    color: #888;
+  }
+
+  &-s {
+    @extend .btn-sec;
+    @include btn-small
+  }
+}
+
+.main-menu {
+  li {
+    font-size: 0.5rem;
+    list-style: none;
+    display: inline;
+  }
+}
+
+.icon-sm {
+  
+  i {
+    color: $color-main;
+    padding: 0.1rem 0.25rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00000040;
+  }
+}
