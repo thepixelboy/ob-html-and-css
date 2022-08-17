@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: lightgrey;
+  border: 0;
+  font-size: 18px;
+  min-width: 160px;
+}
+
+button.cool-button::after {
+  content: "Pasa por encima";
+}
+
+button.cool-button:hover::after {
+  content: "¡Hecho!";
+}
+
+button.cool-button:hover {
+  background: rgb(50, 212, 164);
+  color: white;
+  cursor: pointer;
+}

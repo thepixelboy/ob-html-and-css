@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: #161717;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 450px;
+  margin: auto;
+  color: #fff;
+}
+
+.buttons {
+  align-self: flex-start;
+  display: flex;
+  gap: 20px;
+}
+
+.google-btn {
+  background-color: #1A73E8;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  opacity: 0.75;
+}
+
+.google-btn picture {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn picture img {
+  width: 75%;
+}
+
+.google-btn span {
+  color: #fff;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.twitter-btn {
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.twitter-btn:hover {
+  background-color: #ddd;
+}
+
+.twitter-btn picture {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter-btn picture img {
+  width: 50%;
+}
+
+.divider {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+
+.divider hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.divider span {
+  color: #8b8b8b;
+}
+
+.section-inputs {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: strech;
+  gap: 30px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label span {
+  font-weight: 700;
+}
+
+label input {
+  width: 100%;
+  background-color: #212121;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14pt;
+  transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+  color: #fff;
+}
+
+.section-inputs label input {
+  width: 85%;
+}
+
+label input:hover, label input:focus {
+  background-color: #454045;
+  border-color: 1px solid #f3f3f4;
+  box-shadow: 0 0 10px #d584004f;
+}
+
+.checkbox-terms {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox-terms input[type="checkbox"] {
+  width: 20px;
+}
+
+.checkbox-terms span {
+  font-weight: 300;
+}
+
+.submit-btn {
+  background-color: #EA4C89;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  opacity: 0.75;
+}
