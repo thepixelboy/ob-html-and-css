@@ -1,0 +1,6 @@
+{
+    "ext": "js,html,css",
+    "events": {
+      "start": "cls || clear"
+    }
+}
