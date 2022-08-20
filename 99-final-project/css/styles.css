@@ -192,4 +192,24 @@ body {
   padding: 0 2rem 2rem 2rem;
 }
 
+.sec-kpis {
+  background-color: #0075FF;
+  color: white;
+  padding: 4rem;
+  width: 100%;
+}
+.sec-kpis .kpi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-kpis .kpi .number {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.sec-kpis .kpi .desc {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6666666667);
+}
+
 /*# sourceMappingURL=styles.css.map */
