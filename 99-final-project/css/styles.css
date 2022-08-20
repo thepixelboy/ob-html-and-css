@@ -114,11 +114,11 @@ body {
 
 .sec-home {
   display: flex;
+  align-items: center;
   width: 100%;
   max-width: 768px;
   margin: auto;
-  padding: 5rem;
-  align-items: center;
+  padding: 3rem;
 }
 .sec-home .home-cta {
   flex: 1;
@@ -132,6 +132,23 @@ body {
 }
 .sec-home .home-img {
   max-width: 50%;
+}
+
+.sec-features {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  padding: 3rem;
+}
+.sec-features .intro {
+  text-align: center;
+}
+.sec-features .intro h3 {
+  font-size: 1.8rem;
+}
+.sec-features .intro p {
+  font-size: 0.8rem;
+  color: #888;
 }
 
 /*# sourceMappingURL=styles.css.map */
