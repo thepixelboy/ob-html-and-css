@@ -158,3 +158,23 @@ body {
     }
   }
 }
+
+.sec-footer-cta {
+  background-color: components.$color-footer;
+  padding: 5rem;
+  background-image: url("../assets/img/astronaut.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+
+  .footer-cta {
+    max-width: 50%;
+    
+    .cta-title {
+      font-size: 2rem;
+    }
+
+    .cta-description {
+      font-size: 1.1reml
+    }
+  }
+}
